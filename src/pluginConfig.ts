@@ -1,16 +1,15 @@
 import type { ExternalPluginConfig } from '@windy/interfaces';
 
 const config: ExternalPluginConfig = {
-    name: 'windy-plugin-my-plugin',
+    name: 'windy-plugin-zwnk',
     version: '0.1.0',
     icon: '🔌',
-    title: 'This is my first plugin',
+    title: 'windy-plugin-zwnk',
     description: 'This is my first plugin.',
-    author: 'John Doe (optional company name)',
-    repository: 'https://github.com/windycom/windy-plugin-template',
+    author: 'atingchan',
+    repository: 'https://github.com/atingchan/windy-plugin-template',
     desktopUI: 'rhpane',
     mobileUI: 'fullscreen',
-    routerPath: '/my-plugin',
     private: true,
 };
 
